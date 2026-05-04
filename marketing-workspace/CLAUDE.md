@@ -5,7 +5,7 @@ This is your workspace for the **All You Need Is Claude** workshop. Co-Work trea
 ## What's here
 
 - **`data/brand-book.docx`** — Brand guidelines for "Northwind Apparel," a fictional sustainable activewear brand. Both the brief generator and the content watcher read this as their reference. Edit it freely; the skills follow whatever's in it.
-- **`data/sample-posts/`** — Six pieces of marketing copy. Three on-brand, three off-brand. Used by the content watcher.
+- **`data/sample-posts/`** — Seven pieces of marketing copy. Three on-brand, four off-brand (superlatives, greenwashing, off-voice slang, persona mismatch). Used by the content watcher.
 - **`data/meta-ads-90d.csv`**, **`data/google-ads-90d.csv`**, **`data/tiktok-ads-90d.csv`** — Fake ad performance data, 90 days each. Used by the supermetrics analyzer.
 
 ## What you have access to
