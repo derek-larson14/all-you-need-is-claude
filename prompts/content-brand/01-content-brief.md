@@ -4,7 +4,7 @@ Workshop demo prompt. Run inside the marketing workspace (Claude can see `data/b
 
 ---
 
-I need a content brief for a blog post.
+Using the Content Brief Generator skill, generate a content brief for a blog post.
 
 **Topic:** Why "carbon neutral" claims in activewear are mostly meaningless — and what to look for instead.
 
@@ -16,4 +16,4 @@ I need a content brief for a blog post.
 
 **Format:** blog post, ~1500 words.
 
-Generate the brief. Apply the brand voice, banned-words list, and compliance rules from the brand book. Pick one angle — don't give me three options to choose from.
+Apply the brand voice, banned-words list, and compliance rules from the brand book. Pick one angle — don't give me three options to choose from.
