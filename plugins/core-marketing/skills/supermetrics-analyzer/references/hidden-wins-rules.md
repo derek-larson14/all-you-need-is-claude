@@ -52,7 +52,7 @@ The most common failure mode in performance marketing is overspending on losers 
 
 ## Output format
 
-Group hidden wins under three headers:
+Group hidden wins under four headers:
 - **Scale these** (patterns 1, 2, 3)
 - **Fix delivery** (pattern 4)
 - **Data quality** (pattern 5)
