@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "all-you-need-is-claude",
+  "description": "Marketing AI workshop bundle — skills for content briefs, brand consistency checks, and ad performance analysis",
+  "owner": {
+    "name": "derek-larson14",
+    "email": "derek@newyorkai.org"
+  },
+  "plugins": [
+    {
+      "name": "core-marketing",
+      "description": "Three skills for B2C marketers: content brief generator, content watcher (brand consistency), and Supermetrics ad performance analyzer",
+      "author": {
+        "name": "derek-larson14"
+      },
+      "source": "./plugins/core-marketing",
+      "category": "marketing"
+    }
+  ]
+}
