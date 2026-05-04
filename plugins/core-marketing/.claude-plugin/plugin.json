@@ -1,7 +1,7 @@
 {
   "name": "core-marketing",
   "version": "1.0.0",
-  "description": "Marketing AI skills for B2C teams — content brief generator, brand consistency watcher, and Supermetrics ad performance analyzer. Built for the All You Need Is Claude workshop.",
+  "description": "Marketing AI skills: content brief generator, brand consistency watcher, and Supermetrics ad performance analyzer. Built for the All You Need Is Claude workshop.",
   "author": {
     "name": "derek-larson14"
   }

@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "core-marketing",
-      "description": "Three skills for B2C marketers: content brief generator, content watcher (brand consistency), and Supermetrics ad performance analyzer",
+      "description": "Three skills for marketers: content brief generator, content watcher (brand consistency), and Supermetrics ad performance analyzer",
       "author": {
         "name": "derek-larson14"
       },
