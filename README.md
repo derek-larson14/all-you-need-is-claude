@@ -3,7 +3,7 @@
 The plugin and dummy data for the **All You Need Is Claude** workshop. Three skills you'll install in Claude Co-Work, plus realistic fake data to run them against. Bring your own data once you've seen it work.
 
 **Workshop:** May 8, 2026 · Google Meet · 3 hours
-**Pre-class setup page:** [https://allyouneedisclaude.vercel.app](https://allyouneedisclaude.vercel.app)
+**Pre-class setup page:** [https://all-you-need-is-claude.vercel.app](https://all-you-need-is-claude.vercel.app)
 **Questions:** jack@3plus1.ai
 
 ---
@@ -37,7 +37,7 @@ The plugin and dummy data for the **All You Need Is Claude** workshop. Three ski
 
 The workshop walks you through this live, but here's the path:
 
-1. **Download the workspace** zip from the [setup page](https://allyouneedisclaude.vercel.app) or the latest GitHub release. Unzip it.
+1. **Download the workspace** zip from the [setup page](https://all-you-need-is-claude.vercel.app) or the latest GitHub release. Unzip it.
 2. **Open Co-Work** and point the workspace at the unzipped folder. Claude can now see every file in there.
 3. **Install the plugin:** Customize → Browse Plugins → Personal → Add marketplace from GitHub → paste `derek-larson14/all-you-need-is-claude` → install **core-marketing**.
 
