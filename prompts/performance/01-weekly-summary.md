@@ -6,8 +6,12 @@ Run inside the marketing workspace (Claude can see the ad CSVs in `data/` automa
 
 Using the Supermetrics Analyzer skill, produce my weekly executive summary from the ad data in `data/`.
 
-Compare the most recent full week to the prior full week. Use ROAS as the primary KPI. Include all platforms. Output as markdown in the chat.
+Compare the most recent full week to the prior full week. Use ROAS as the primary KPI. Include all platforms.
 
-Match this voice: direct, numerate, no hedging. Bullets in the TL;DR are one sentence each and lead with direction. Recommendations are specific (named campaigns/creatives), not generic.
+Format the output:
+- **TL;DR** at the very top — three bullets, one sentence each, leading with direction (up/down/flat).
+- **Body in tables** — headline KPIs, channel breakdown, what's working, what's broken. No paragraph blurbs in the body.
+- End with the "What I'd do Monday" block (3-5 specific actions with named campaigns or creatives).
+- End with the "Data quality note."
 
-End with the "What I'd do Monday" block and the Data quality note.
+Match this voice: direct, numerate, no hedging.

@@ -6,15 +6,15 @@
 
 ---
 
-## Verdict: {SHIP | FIX AND RE-CHECK | BLOCK}
+## Verdict: {APPROVE | REVISE | HOLD}
 
-{One sentence on the headline reason. "Three Block-level compliance violations." or "Clean — one minor note on pillar invocation."}
+{One sentence on the headline reason. "Two unsubstantiated sustainability claims." or "Clean — one minor note on pillar invocation."}
 
-**Findings:** {N} Block · {N} Fix · {N} Note
+**Issues found:** {N}
 
 ---
 
-## Block — must fix before ship
+## Issues
 
 ### 1. {Short rule name}
 - **Rule:** "{quoted from brand book or short description}"
@@ -22,35 +22,15 @@
 - **Why it fails:** {one sentence}
 - **Suggested rewrite:** "{the fix}"
 
-### 2. ...
-
-(omit this section if zero Block findings)
-
----
-
-## Fix — needs an edit pass
-
-### 1. {Short rule name}
+### 2. {Short rule name}
 - **Rule:** "{...}"
 - **Found:** "{...}"
 - **Why it fails:** {one sentence}
 - **Suggested rewrite:** "{the fix}"
 
-### 2. ...
+### 3. ...
 
-(omit this section if zero Fix findings)
-
----
-
-## Note — for the writer's awareness
-
-### 1. {Short rule name}
-- **Rule:** "{...}"
-- **Found:** "{...}"
-- **Why it fails:** {one sentence}
-- **Suggested rewrite:** "{the fix}"
-
-(omit this section if zero Note findings)
+(omit this section if zero issues — go straight to "What's working")
 
 ---
 

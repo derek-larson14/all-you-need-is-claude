@@ -49,7 +49,7 @@ The three skills load automatically. No zipping, no SKILL.md uploads, no per-ski
 You attach a brand book and name a topic. It produces a content brief — angle, headlines, key points, sources, voice notes, and a meta description. Re-prompt it with "expand into an outline" and it gives the writer section-level word counts, link suggestions, and a CTA. Brand voice and compliance rules come straight from the brand book; the skill self-checks before returning.
 
 ### content-watcher
-You attach a brand book and any piece of copy (ad, post, email, draft). It returns a verdict (Ship / Fix and re-check / Block), violations grouped by severity with the offending phrase quoted and a suggested rewrite, plus a "what's working" note. Designed for agencies running 50+ campaigns where brand drift is the silent killer.
+You attach a brand book and any piece of copy (ad, post, email, draft). It returns a verdict (Approve / Revise / Hold), a flat list of issues with the offending phrase quoted and a suggested rewrite, plus a "what's working" note. Designed for agencies running 50+ campaigns where brand drift is the silent killer.
 
 ### supermetrics-analyzer
 You drop in a Supermetrics CSV (Meta / Google / TikTok / GA4). It detects the platform, runs one of four reports — exec summary, fatigue, hidden wins, pacing — and shows the math behind every claim. Built around the standard two-of-three fatigue rule and a tracking-artifact detector.
@@ -61,7 +61,7 @@ All three skills are markdown. Open `plugins/core-marketing/skills/<skill>/SKILL
 **Northwind Apparel** is a fictional sustainable activewear brand. Realistic enough to test against; clearly fake so you can break it without consequence.
 
 - `marketing-workspace/data/brand-book.docx` — full brand guidelines: voice principles with do/don't pairs, banned words list, compliance rules (sustainability claim substantiation, banned medical claims), two personas, four messaging pillars.
-- `marketing-workspace/data/sample-posts/` — three on-brand pieces (product launch, Instagram caption, restock email) and three off-brand pieces that violate specific rules (banned superlatives, unsubstantiated sustainability claims, off-voice). Use these to drive the watcher.
+- `marketing-workspace/data/sample-posts/` — three on-brand pieces (product launch, Instagram caption, restock email) and four off-brand pieces that violate specific rules (banned superlatives, unsubstantiated sustainability claims, off-voice slang, persona mismatch). Use these to drive the watcher.
 - The three CSVs — 90 days of seeded ad data with six known scenarios for the supermetrics skill (a fatiguing creative, an underspent winner, a tracking gap, etc.). Regenerate with `python3 scripts/generate_data.py` (writes to `marketing-workspace/data/`).
 
 ## After the workshop

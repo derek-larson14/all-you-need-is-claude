@@ -13,7 +13,7 @@ from datetime import date
 from pathlib import Path
 from statistics import mean
 
-DATA = Path(__file__).resolve().parent.parent / "data"
+DATA = Path(__file__).resolve().parent.parent / "marketing-workspace" / "data"
 META = DATA / "meta-ads-90d.csv"
 GOOGLE = DATA / "google-ads-90d.csv"
 TIKTOK = DATA / "tiktok-ads-90d.csv"

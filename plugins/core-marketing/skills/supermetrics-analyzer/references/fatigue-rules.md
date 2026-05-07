@@ -23,12 +23,18 @@ A creative is fatigued when the audience has seen it enough that performance is 
 
 ## Confirmation rule
 
-Flag a creative as **fatigued** when **at least two** of the following are simultaneously true:
+Flag a creative as **fatigued** when **at least two** of these are simultaneously true:
+
 1. Frequency at or above the fatigue threshold
 2. CTR ratio at or below 0.75
 3. CPM ratio at or above 1.20
 
 Single-signal triggers produce too many false positives. Two of three is the practitioner standard.
+
+## Confidence grouping
+
+- **High confidence** — all three signals tripped
+- **Medium confidence** — two of three signals tripped
 
 ## Output format
 
@@ -36,16 +42,12 @@ For each fatigued creative, present:
 - Campaign / Ad set / Ad name
 - Days live, lifetime spend, lifetime ROAS
 - The two or three signals that confirmed fatigue, with their numbers
-- Recommended action (pause, refresh creative, narrow audience, move to retargeting)
-
-Group by **confidence**:
-- **High confidence** — three signals tripped
-- **Medium confidence** — two signals tripped
+- Recommended action — one of: pause, refresh creative, narrow audience, move to retargeting
 
 ## What this rule will NOT catch
 
-- Sudden ad-account-wide drops (those are platform issues, not creative fatigue — flag separately)
-- Seasonal effects (Black Friday, post-holiday lulls — note the date range)
-- Audience saturation at the ad-set level (the creative may be fine; the audience is exhausted)
+- **Account-wide drops** — those are platform issues, not creative fatigue. Flag separately.
+- **Seasonal effects** — Black Friday, post-holiday lulls. Note the date range.
+- **Audience saturation at the ad-set level** — the creative may be fine; the audience is exhausted.
 
 If the user asks about an ad set or campaign with multiple creatives all showing decline, escalate to "audience saturation" rather than per-creative fatigue.

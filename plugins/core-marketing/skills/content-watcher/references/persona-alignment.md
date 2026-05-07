@@ -26,14 +26,14 @@ For each dimension, ask: does the copy match the persona the brand book describe
 - Example mismatch: TikTok caption written like a press release.
 - Example mismatch: B2B email written in influencer-speak.
 
-## Severity calibration
+## Verdict calibration
 
-- **Block** — the copy is for a fundamentally different audience than the brand serves. (Ship copy for "elite ultramarathoners" when the brand is "weekend trail walkers.")
-- **Fix** — the copy is in the right neighborhood but drifts on one or two dimensions.
-- **Note** — minor drift, easy to recognize once pointed out.
+- Pushes toward **Hold** — the copy is for a fundamentally different audience than the brand serves. (Copy for "elite ultramarathoners" when the brand is "weekend trail walkers.")
+- Pushes toward **Revise** — the copy is in the right neighborhood but drifts on one or two dimensions.
+- Stays a note under **Approve** — minor drift, easy to recognize once pointed out.
 
 ## A useful test
 
-Read the copy out loud as if you were the persona. Does it land? If you have to translate the copy to make it work for them, that's a Fix.
+Read the copy out loud as if you were the persona. Does it land? If you have to translate the copy to make it work for them, the verdict is **Revise**.
 
-If the brand book lists multiple personas, identify which persona the brief was written for (the brief should say). If the brief didn't specify and the copy is generic, that's worth flagging as a Note: "Couldn't tell which persona this is for. The brief should have specified."
+If the brand book lists multiple personas, identify which persona the brief was written for (the brief should say). If the brief didn't specify and the copy is generic, that's worth flagging as a note under **Approve**: "Couldn't tell which persona this is for. The brief should have specified."
