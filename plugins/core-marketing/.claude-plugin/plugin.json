@@ -1,6 +1,6 @@
 {
   "name": "core-marketing",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Marketing AI skills: content brief generator, brand consistency watcher, and Supermetrics ad performance analyzer. Built for the All You Need Is Claude workshop.",
   "author": {
     "name": "derek-larson14"
