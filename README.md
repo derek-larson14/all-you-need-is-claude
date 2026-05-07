@@ -3,8 +3,6 @@
 The plugin and dummy data for the **All You Need Is Claude** workshop. Three skills you'll install in Claude Co-Work, plus realistic fake data to run them against. Bring your own data once you've seen it work.
 
 **Workshop:** May 8, 2026 · Google Meet · 3 hours
-**Pre-class setup page:** [https://all-you-need-is-claude.vercel.app](https://all-you-need-is-claude.vercel.app)
-**Questions:** jack@3plus1.ai
 
 ---
 
@@ -41,8 +39,6 @@ The workshop walks you through this live, but here's the path:
 2. **Open Co-Work** and point the workspace at the unzipped folder. Claude can now see every file in there.
 3. **Install the plugin:** Customize → Browse Plugins → Personal → Add marketplace from GitHub → paste `derek-larson14/all-you-need-is-claude` → install **core-marketing**.
 
-The three skills load automatically. No zipping, no SKILL.md uploads, no per-skill drag.
-
 ## What the skills do
 
 ### content-brief-generator
@@ -66,9 +62,7 @@ All three skills are markdown. Open `plugins/core-marketing/skills/<skill>/SKILL
 
 ## After the workshop
 
-You have 30 days of async access. Email **jack@3plus1.ai** when you have questions, want to extend a skill to a new workflow, or need help pitching this internally.
-
-Want this rolled out across your org? [Book a call](#).
+30 days of async support. Email Jack at **jack@3plus1.ai** with questions.
 
 ## License
 
